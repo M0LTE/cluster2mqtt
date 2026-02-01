@@ -1,0 +1,6 @@
+/.claude
+/.vs
+/appsettings.Production.json
+/bin
+/obj
+/publish

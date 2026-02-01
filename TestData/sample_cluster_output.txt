@@ -1,0 +1,21 @@
+login: m0lte
+Hello Tom, this is G4BFG-9 in Warminster, Wiltshire
+running DXSpider V1.57 build 633
+Capabilities: ve7cc rbn
+M0LTE de G4BFG-9  1-Feb-2026 1829Z dxspider >
+DX de K4VTE:     21142.3  VE6KIX                                      1829Z
+DX de OH0M:      21044.0  K5OHY        WWFF KFF-2989                  1830Z
+DX de PY8JL:     21074.9  IK1EZX       FT8 -16                        1830Z
+DX de II4FMOB:  144350.0  IU4JJJ       50 Diploma RADIO FLASH MOB AWA 1830Z
+DX de AB9YC:     14018.6  OR2M         CW                             1830Z
+DX de EB1CU:     21350.0  EA1FOX       LLOTA POTA                     1830Z
+DX de AA8CS:     24915.4  CX2SA                                       1831Z
+DX de CT7BOD:    28461.0  K1NF         USB IM57uo -> FN53bw           1831Z
+DX de IU4QQD:    14200.0  IU2SLI       vediamo un p? per un paio di c 1831Z
+DX de W3LPL:     14037.4  TZ4AM        Heard in PA                    1832Z
+DX de K4CUP:     24919.0  IZ5WTV       FT4 -11 dB 1386 Hz             1832Z
+DX de HK4SAN:    28074.0  PD9FLX       FT8 -05dB from JO22 2078Hz     1832Z
+DX de EA5KK:      7074.0  EA5JMO       FT8 DIPLOMA DIA INTER DEL MAGO 1833Z
+WCY de DK0WCY-2 <19> : K=2 expK=0 A=5 R=126 SFI=141 SA=eru GMF=qui Au=no
+DX de N2TA:      28180.0  RI0SP        GRID IR37                      1837Z
+DX de JR6RRD:    10136.0  5Z4VJ        FT8 CQ                         1845Z

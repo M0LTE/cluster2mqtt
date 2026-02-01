@@ -1,0 +1,32 @@
+[Unit]
+Description=DX Cluster to MQTT Bridge
+Documentation=https://github.com/m0lte/cluster2mqtt
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=notify
+WorkingDirectory=/opt/cluster2mqtt
+ExecStart=/opt/cluster2mqtt/cluster2mqtt
+Restart=always
+RestartSec=10
+
+# Security hardening
+User=cluster2mqtt
+Group=cluster2mqtt
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+PrivateTmp=true
+PrivateDevices=true
+
+# Environment
+Environment=DOTNET_ENVIRONMENT=Production
+
+# Logging
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=cluster2mqtt
+
+[Install]
+WantedBy=multi-user.target

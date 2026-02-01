@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-cluster2mqtt-cf2af92e-a3fe-4d51-a52f-f00ef3774f63</UserSecretsId>
+    <RootNamespace>Cluster2Mqtt</RootNamespace>
+    <AssemblyName>cluster2mqtt</AssemblyName>
+    <InvariantGlobalization>true</InvariantGlobalization>
+  </PropertyGroup>
+
+  <!-- Exclude test project from compilation -->
+  <ItemGroup>
+    <Compile Remove="cluster2mqtt.Tests\**" />
+    <Content Remove="cluster2mqtt.Tests\**" />
+    <EmbeddedResource Remove="cluster2mqtt.Tests\**" />
+    <None Remove="cluster2mqtt.Tests\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="10.0.2" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.Systemd" Version="10.0.2" />
+    <PackageReference Include="MQTTnet" Version="4.3.7.1207" />
+    <PackageReference Include="MQTTnet.Extensions.ManagedClient" Version="4.3.7.1207" />
+  </ItemGroup>
+</Project>
